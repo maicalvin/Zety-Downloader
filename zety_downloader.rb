@@ -1,4 +1,5 @@
 require 'wicked_pdf'
+# require 'chromedriver-helper'
 require 'selenium-webdriver'
 require 'io/console'
 
@@ -38,7 +39,7 @@ lines[11] = content << $/
 File.open(path, 'w') { |f| f.write(lines.join) }
 
 pdf = WickedPdf.new.pdf_from_html_file(path)
-File.open('./new_resume', 'wb') do |file|
+File.open('./new_resume.pdf', 'wb') do |file|
   file << pdf
 end
 driver.quit

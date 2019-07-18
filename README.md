@@ -1,3 +1,6 @@
+Zety has made an update on 4th June and they did some changes on the website. I have updated the new software to allow user to download their resume. 18 July 2019
+
+
 # Zety-Downloader
 Ruby script that will enable user to download their resume from the Zety website without being a premium user
 
@@ -20,3 +23,4 @@ PS: The script does not store your password or any login credentials. It simply 
 Edit #1: Some people reported that the pdf doesn't work in older version of this script. Ensure you add ".pdf" to the downloaded file. This only applies if you have used this script before 16 February 2019.
 
 Edit #2: If the script doesn't work due to Selenium-Webdriver, go into the script, and uncomment "require 'chromedriver-helper'" and try again.
+------------
